@@ -65,8 +65,13 @@ exports.run = async (client, message) => {
       true
     )
   .addField(
-      `__SoruSor__`,
-      `📯 \`${prefix}sorusor \` Bota Soru Sorarsınız.`,
+      `__Soru Sor__`,
+      `📯 \`${prefix}sor \` Bota Soru Sorarsınız.`,
+      true
+    )
+  .addField(
+      `__Sesli Konuş__`,
+      `📯 \`${prefix}konuş \` Yazdığınız Metni Seste Sesli Okur.`,
       true
     )
     .addField(

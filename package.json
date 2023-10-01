@@ -1,7 +1,7 @@
 {
-  "name": "hello-express",
+  "name": "craveo",
   "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "Tam fonksiyonlu Craveo Discord botu!",
   "main": "parsher.js",
   "scripts": {
     "start": "node parsher.js"
@@ -49,13 +49,14 @@
     "wio.db": "^4.0.17",
     "yt-search": "^2.7.4",
     "ytdl-core": "^4.4.5",
-    "ytdl-core-discord": "^1.2.5"
+    "ytdl-core-discord": "^1.2.5",
+    "google-tts-api": "^2.0.2"
   },
   "engines": {
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://github.com/lynchoffije/craveo.git"
   },
   "license": "MIT",
   "keywords": [

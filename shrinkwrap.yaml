@@ -15,6 +15,7 @@ dependencies:
   fs: 0.0.2
   gamecord-fork: 1.0.12
   gamedig: 3.0.9
+  google-tts-api: 2.0.2
   hastebin-gen: 2.0.5
   https: 1.0.0
   hurriyet: 0.3.1
@@ -1732,6 +1733,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==
+  /google-tts-api/2.0.2:
+    dependencies:
+      axios: 0.21.4
+    dev: false
+    resolution:
+      integrity: sha512-MkQYbBJEdom8hJpfEVDfD3tpBtkz0X59C+FNsoRhbnCiFjZRnzyurGQ5OrAr3xkigII56/jmk0JNwZsp450G+Q==
   /got/11.8.6:
     dependencies:
       '@sindresorhus/is': 4.6.0
@@ -3508,6 +3515,7 @@ specifiers:
   fs: ^0.0.2
   gamecord-fork: ^1.0.6
   gamedig: ^3.0.0
+  google-tts-api: ^2.0.2
   hastebin-gen: ^2.0.5
   https: ^1.0.0
   hurriyet: ^0.3.1
